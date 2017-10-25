@@ -35,8 +35,9 @@ class Nekbone(Package):
     homepage = "https://github.com/ANL-CESAR/"
     url = "https://github.com/ANL-CESAR/nekbone.git"
 
-    tags = ['proxy-app']
+    tags = ['proxy-app', 'ecp-proxy-app']
 
+    version('3.1','690bb5873d2b6593589d0d4e54877ffe', url='https://cesar.mcs.anl.gov/system/files/1383327406/nekbone-3.1.tgz')
     version('develop', git='https://github.com/ANL-CESAR/nekbone.git')
 
     depends_on('mpi')
